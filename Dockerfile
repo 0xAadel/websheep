@@ -1,4 +1,4 @@
-# Author: Aadel Meheysi from Al Zubarah Al-zubarah.com 
+# Author: Aadel Meheysi | Al-zubarah.com 
 FROM node:13.5.0-alpine3.10
 # copy the local folder to the image
 COPY websheep /websheep 
