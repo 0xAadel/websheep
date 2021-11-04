@@ -33,6 +33,12 @@ sudo docker build -t mysheep .
 
 ```
 sudo docker run --rm -d --name sheep_container -p 4200:4200 -p 3333:3333 mysheep 
+
 ```
 
-6. Open your browser and go to localhost:4200 for the web interface or localhost:3333 for the api testing interface
+*To verify that your docker container is running correctly you should see a long sting of characters in your terminal after you ran the previous command.*
+
+6. Open your browser and go to localhost:4200 for the web interface or localhost:3333 for the api testing interface.
+
+
+   
