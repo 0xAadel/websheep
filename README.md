@@ -12,18 +12,13 @@ yarn start
 ```
 # Running websheeb using docker
 
-1. Download the repository as a zip file
-2. Unzip to a folder and rename it to websheep
-3. Copy the Dockerfile outside websheep so your directory structure will look like
-
+1. Download the repository as a zip file or clone it
 ```
-$ ls -l      
-total 8
--rw-r--r-- 1 kali kali  177 Oct 19 09:55 Dockerfile
-drwxr-xr-x 8 kali kali 4096 Oct 19 09:48 websheep
+git clone https://github.com/0xAadel/websheep
 ```
+3. Unzip to a folder and rename it to websheep
 
-4. Building a docker image 
+4. Build the docker image 
 
 ```
 sudo docker build -t mysheep .
